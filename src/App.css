@@ -1,0 +1,156 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 80px;
+  float: left;
+}
+
+.App-header {
+  background-color: #222;
+  height: auto;
+  padding: 10px;
+  color: #fff;
+}
+
+.App-footer {
+  background-color: #222;
+  height: 100%;
+  padding: 15px;
+  color: white;
+}
+
+.App-intro {
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+.App-texto {
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+
+.media-object {
+  padding: 5%;
+}
+
+.App-fondo {
+  background-image: url(http://produccionesbw.com.ar/assets/img/header/1.jpg);
+  width: 100%;
+  height: 100%;
+  margin-top: -0.8%;
+}
+
+
+* ======== / HOME ======== */
+
+/* ======== MAIN MENU ======== */
+
+  #logo-container {
+    top: 18px;
+        position: absolute;
+  }
+
+  #logo-container h3 {
+    font-size: 24px !important;
+    letter-spacing: 2px;
+    font-weight: 400;
+  }
+
+   .desktop-menu{
+    background-color: #fff;
+    border: 2px solid #f3f3f3;
+    height: 100px;
+    padding-left: 10%;
+    list-style: none;
+   }
+
+  #desktop-menu > ul {
+    text-align: center;
+    position: absolute;
+    padding-left: 25%;
+  }
+
+  #desktop-menu > ul > li {
+    display: inline-block;
+    margin-right: 25px;
+    position: relative;
+  }
+
+  #desktop-menu ul > li .sub-menu {
+    position: absolute;
+    text-align: left;
+    background-color: #404040;
+    display: none;
+  }
+
+  #desktop-menu .sub-menu a:hover {
+    color: #fff;
+  }
+
+  #desktop-menu .sub-menu .current_menu_item {
+    color: #fff;
+  }
+
+  #desktop-menu .sub-menu li {
+    position: relative;
+  }
+
+  .sub-menu .sub-menu {
+    left: 155px;
+    top: 0;
+  }
+
+  #desktop-menu > ul > li .sub-menu > li > a {
+    display: block;
+    padding: 10px 15px;
+    max-width: 155px;
+    min-width: 155px;
+    transition: color 0.2s, background 0.2s;
+    -webkit-transition: color 0.2s, background 0.2s;
+    -moz-transition: color 0.2s, background 0.2s;
+    -ms-transition: color 0.2s, background 0.2s;
+  }
+
+  #desktop-menu ul > li:hover > .sub-menu {
+    display: block;
+  }
+
+  #desktop-menu > ul > li > a {
+    display: block;
+    height: 83px;
+    line-height: 84px;
+    text-align: center;
+    padding: 0 10px;
+    color: #404040;
+    transition: color 0.2s;
+    -webkit-transition: color 0.2s;
+    -moz-transition: color 0.2s;
+    font-size: 11px;
+  }
+
+  #desktop-menu > ul > li:last-child {
+    padding: 0 0 0 10px;
+    margin-right: 0;
+  }
+
+  #desktop-menu > ul > li:last-child:after {
+    content: "";
+  }
+
+  #desktop-menu > ul > li > a:hover, #desktop-menu > ul > .current_menu_item > a {
+    border-bottom: 2px solid;
+  }
+
+  #desktop-menu > ul > li:after {
+
+    position: absolute;
+    top: 24px;
+    font-size: 24px;
+    right: -15px;
+    color: #404040;
+    font-family: sans-serif;
+  }
+/* ======== / MAIN MENU ======== */
+
